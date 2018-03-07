@@ -1,6 +1,5 @@
 package br.com.alura.loja.modelo;
 
-
 public class Produto {
 
 	private double preco;
@@ -14,6 +13,7 @@ public class Produto {
 		this.preco = preco;
 		this.quantidade = quantidade;
 	}
+	
 
 	public double getPreco() {
 		return preco;
