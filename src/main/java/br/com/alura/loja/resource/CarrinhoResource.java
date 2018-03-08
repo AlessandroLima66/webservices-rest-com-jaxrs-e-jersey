@@ -13,9 +13,9 @@ public class CarrinhoResource {
 	
 	@Path("{id}")
 	@GET
-	@Produces(MediaType.APPLICATION_XML)
+	@Produces(MediaType.APPLICATION_JSON)
 	public String busca(@PathParam("id") long id) {
 		CarrinhoDAO carrinhoDao = new CarrinhoDAO();
-		return carrinhoDao.busca(id).toXML();
+		return carrinhoDao.busca(id).toJson();
 	}
 }
