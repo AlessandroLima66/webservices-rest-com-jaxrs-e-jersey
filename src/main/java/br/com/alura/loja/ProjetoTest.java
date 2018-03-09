@@ -26,6 +26,7 @@ private HttpServer server;
     public void mataServidor() {
 		Servidor.stopServer(server);
     }
+	
 	@Test
 	public void testaQueBuscarUmProjetoTrazOProjetoEsperado() {
 		Client client = ClientBuilder.newClient();
