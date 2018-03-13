@@ -59,4 +59,5 @@ public class CarrinhoResource {
 		carrinho.trocaQuantidade(produto);
 		return Response.ok().build();
 	}
+	
 }
